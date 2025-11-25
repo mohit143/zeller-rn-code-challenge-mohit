@@ -1,4 +1,13 @@
 {
   "name": "zellerApp",
-  "displayName": "zellerApp"
+  "displayName": "zellerApp",
+  "expo": {
+    "name": "ZellerApp",
+    "slug": "zellerapp",
+    "platforms": ["web"],
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
 }
